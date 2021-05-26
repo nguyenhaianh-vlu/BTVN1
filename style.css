@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	font-family: 'KoHo', sans-serif;
+}
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}.container{
+	width: 1000px;
+	margin: 0 auto
+}
+.header{
+	width: 100%;
+	padding: 30px 0;
+}
+.header-main{
+	height: 60px;
+	padding: 30px 0;
+}
+.faq{
+	width: 33.33%;
+	height: 60px;
+	float: left;
+	line-height: 60px
+}
+.faq a{
+	color:#A99E9F;
+	text-decoration: none;
+	font-size: 12px;
+}
+.logo{
+	width: 33.33%;
+	height: 60px;
+	float:left;
+	line-height: 60px;
+	text-align: center;
+	font-family: "Pattaya", sans-serif;
+}
+.logo a{
+	color:#141414;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "Pattaya", sans-serif;
+}
+.logo a:hover{
+	opacity: 0.8;
+	color: red
+}
+.sign-up{
+	width: 33.33%;
+	height: 60px;
+	float:left;
+	line-height: 60px;
+}
+.sign-up ul{
+	list-style: none;
+	text-align: right
+}
+.sign-up ul li{
+	display:inline-block;
+	margin-left: 24px;
+}
+.sign-up ul li a{
+	color: #A99E9F;
+	text-decoration: none
+}
+.header-bottom{
+/*	background: #D3CBCC*/
+}
+.header-bottom ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between
+}
+.header-bottom ul li{
+/*	display: inline-block;*/
+/*	margin: 0 40px*/
+}
+.header-bottom ul li a{
+	text-decoration: none;
+	color:#373636;
+}
+.header-bottom ul li a:hover{
+	color: #F38A8B
+}
+.banner{
+	width: 100%;
+	height: 300px;	
+	background: url("image/teemu-paananen-OOE4xAnBhKo-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 200px;
+	box-sizing: border-box;
+	color: aliceblue
+}
+.banner h1{
+	font-family: "Pattaya", sans-serif;
+	letter-spacing: 5px
+}
+.video{
+	width: 65%;
+	height: 500px;
+/*	background: grey;*/
+	float: left;
+	border-radius: 10px;
+	overflow: hidden
+}
+.about{
+	padding: 60px
+}
+.box{
+	width: 1000px;
+	height: 60
+}
+.info{
+	width: 35%;
+	height: 500px;
+/*	background: #ACA0A0;*/
+	float:left;
+	padding: 0 30px;
+	box-sizing: border-box
+}
+.content{
+	width: 100%;
+	height: 490px;
+	background: #F2EFEF;
+	margin-top: 10px;
+}
+.ava{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float:left;
+	overflow: hidden;
+	margin: 10px;
+}
+.name{
+	width: calc(100% - 120px);
+	height: 100px;
+	float: left;
+	padding-top: 40px;
+}
+.text{
+	width: 90%;
+	height: 200px;
+/*	background: #FDE0E0;*/
+	clear: both;
+	margin: 0 auto
+}
+.text p{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: justify;
+}
+.book{
+	width: 260px;
+	height: 50px;
+	background: #A7A4A4;
+	text-align: center;
+	line-height: 50px;
+	margin: 40px auto
+}
+.book a{
+	color: aliceblue;
+	text-decoration: none
+}
+.book a:hover{
+	color: darkgreen
+}
+.empty{
+	height: 60px;
+	clear: both
+}
+hr{
+	width: 97%;
+}
+/*
+.nameh1{
+	text-align: center;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	font-family: "Pattaya", sans-serif
+}
+*/
+.boxxx{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+/*	text-align:center*/
+}
+.left{
+	width: 40%;
+	height: 400px;
+	background:  #F2EFEF;
+	float: left;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding: 250px 20px 0px 20px;
+	box-sizing: border-box;
+	
+	
+}
+.right{
+	width: 40%;
+	height: 400px;
+	background:  #F2EFEF;
+	float: left;
+	margin-left: 50px;
+	margin-right: 100px;
+	padding: 250px 20px 0px 20px;
+	box-sizing: border-box;
+	
+}
+.left2{
+	width: 40%;
+	height: 200px;
+	background: #B3B2B2;
+	margin-top: 60px;
+	float: left
+}
+.right2{
+	width: 50%;
+	height: 200px;
+	background: #F2EFEF;
+	margin-top: 60px;
+	float: left;
+	margin-left: 70px;
+}
+.left2 h3{
+	background: #B3B2B2;
+	width: 55%;
+	height: 200px;
+	float: left;
+	line-height: 300px;
+	color: white;
+}
+.about-pro{
+	width: 42%;
+	height: 200px;
+	float: right;
+	background:#E8E2E2;
+	margin-left: 10px;
+	
+}
+.about-pro h4 a{
+	text-decoration: none;
+	color: black
+}
+.about-pro h4 a:hover{
+	color: blue
+}
+.right2 h3{
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.right2 h4{
+	padding: 10px;
+}
+.right2 h4 a{
+	text-decoration: none;
+	color: black
+}
+.right2 h4 a:hover{
+	color: blue
+}
